@@ -29,11 +29,11 @@ from pokete.base.input_loops import (
     ask_bool,
     ask_text,
 )
-from pokete.base.input_loops.new_text_input import TextInput
 from pokete.base.mouse import mouse_interaction_manager
 from pokete.base.periodic_event_manager import PeriodicEventManager
 from pokete.base.single_event import single_event_periodic_event
 from pokete.base.tss import tss
+from pokete.base.ui.input import TextInput
 from pokete.base.ui.notify import notifier
 from pokete.classes import deck, roadmap, timer
 from pokete.classes import movemap as mvp
