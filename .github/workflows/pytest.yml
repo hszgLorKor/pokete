@@ -17,7 +17,9 @@ jobs:
           python-version: "3.12"
 
       - name: Install Pytest
-        run: pip install pytest
+        run: pip install pytest scrap_engine
 
       - name: Run Pytest
-        run: python -m pytest src/tests -v
+        run: |
+          cd src
+          python -m pytest tests -v
